@@ -1,0 +1,19 @@
+<template>
+	<div class="beta-body">
+		<div class="with-comment">
+			<h2>결재 포맷 중 ‘회람’ 작성 및 보기</h2>
+			<p>'신청'은 신청하는 부서와 처리하는 부서가 다른 문서를 작성할 때 사용합니다.<br>
+			결재선 설정 방법은 신청과 처리 내에서 결재 설성과 같습니다.</p>
+			<img src="~assets/images/write.png" alt="">
+		</div>
+	</div>
+</template>
+<script>
+export default {
+	layout: 'hiworks',
+	name: 'format-approve',
+	head: {
+		title: '하이웍스 - 회람'
+	}
+}
+</script>
