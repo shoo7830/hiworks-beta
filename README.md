@@ -1,4 +1,9 @@
 # hiworks-beta
+0. start
+~~~
+yarn 
+yarn add nuxt
+~~~
 
 1. development
 ~~~
