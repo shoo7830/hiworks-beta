@@ -48,21 +48,14 @@ html, body {height: 100%;}
 .sub-menu li a {color: #333;}
 
 
-.page-enter-active {
+.page-enter-active, .page-leave-active {
   transition: all .3s ease;
 }
-.page-leave-active {
+/*.page-leave-active {
   transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
+}*/
 .page-enter, .page-leave-to
 {
   //transform: translateX(10px);
   opacity: 0;
-}
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s
-}
-.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
-  opacity: 0
 }

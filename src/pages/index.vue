@@ -30,8 +30,6 @@ export default {
 	head: {
 		title: '하이웍스 - 전자결재 개편 홈'
 	},
-
-	transition:'fade',
 	
 	data () {
 		return {
@@ -100,6 +98,7 @@ export default {
 
 <style scope>
 	.spr-icon {display: inline-block;background:url('~assets/images/spr-icon.png') 0 0 no-repeat;}
+	.service-list li a:hover .title {color:#0197e4;}
 	.write-approve .spr-icon {width:94px;height:107px;background-position:-1px -1px;}
 	a:hover .write-approve .spr-icon {background-position: 0 -109px;}
 	.list-approve .spr-icon {width: 89px;height: 107px;background-position: -92px -1px;}

@@ -2,18 +2,20 @@
 	<div class="beta-wrap">
 		
 		<Leftmenu></Leftmenu>
-		<nuxt />
 		
+		<nuxt />
 	</div>
 	
 </template>
 
 <script>
 	import Leftmenu from '~components/Leftmenu.vue';
+	// import Rightcontent from '~components/Rightcontent.vue';
 	
 	export default {
 		components: {
-			Leftmenu
+			Leftmenu//,
+			//Rightcontent
 		}
 	}
 
