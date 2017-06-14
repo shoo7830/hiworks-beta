@@ -19,7 +19,6 @@ head:{
 },
 
   css: [
-  
     '~assets/css/main.css'
   ], 
 
