@@ -6,6 +6,7 @@
 				<div class="main">
 					<h1 class="title"><router-link to="/"><img src="https://www.hiworks.com/static/images/logo.png" alt=""></router-link></h1>
 					<h2>전자결재 개편 소개</h2>
+					<a href="#" class="go-beta">개편된 전자결재 바로 체험하기</a>
 				</div>
 			</div>
 			<ul class="service-list">
@@ -98,7 +99,10 @@ export default {
 
 <style scope>
 	.spr-icon {display: inline-block;background:url('~assets/images/spr-icon.png') 0 0 no-repeat;}
-	.service-list li a:hover .title {color:#0197e4;}
+	.beta-wrap-main .main .go-beta {float: right;margin-top: 14px;margin-right: 106px;padding: 10px 15px;font-size: 14px;color: #2985db;border: 1px solid #2985db;}
+	.beta-wrap-main .main .go-beta:after {content: '>';margin-left: 14px;}
+	.service-list li a:hover .title {color:#0197e4;font-weight: bold;}
+	.service-list li a:hover .text {color:#0197e4;}
 	.write-approve .spr-icon {width:94px;height:107px;background-position:-1px -1px;}
 	a:hover .write-approve .spr-icon {background-position: 0 -109px;}
 	.list-approve .spr-icon {width: 89px;height: 107px;background-position: -92px -1px;}

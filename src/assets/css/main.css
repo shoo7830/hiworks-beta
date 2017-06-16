@@ -27,7 +27,7 @@ html, body {height: 100%;}
 /* *** beta style *** */
 .beta-wrap {width: 1024px; margin: 0 auto;height:100%;}
 .beta-wrap:after {display: block;clear: both;content: '';}
-.beta-wrap-main .beta-header {padding: 35px 0;border-bottom: 1px solid #ecf0f3;}
+.beta-wrap-main .beta-header {padding: 33px 0 29px;border-bottom: 1px solid #ecf0f3;}
 .beta-wrap-main .main {width: 1024px; margin: 0 auto;}
 .beta-wrap-main .service-list {width: 1024px; margin: 0 auto;}
 .beta-header .is-main {width: 1024px;margin: 0 auto;padding: 35px 0;border-bottom: 1px solid #ecf0f3;}
@@ -35,13 +35,14 @@ html, body {height: 100%;}
 .beta-header .title {float: left;width: 160px}
 .beta-nav {float: left;width: 223px;padding: 70px 0 0 20px;}
 .beta-header h1 {margin-left: 35px;}
-.beta-header h2 {float: left;padding:2px 0 0 32px;font-size: 28px;color: #333;font-weight: normal;letter-spacing: -2px}
+.beta-header h2 {float: left;padding:9px 0 0 32px;font-size: 28px;color: #333;font-weight: normal;letter-spacing: -2px}
 .service-list li {float: left;width: 249px;padding:55px 35px;text-align: center;}
 .service-list li a {display: inline-block;}
 .service-list .title {display:inline-block;padding-bottom: 10px;font-size: 18px;color: #333;}
 .service-list .text {font-size: 16px;color: #777;letter-spacing: -1px;line-height: 1.8;}
 
-.beta-header .title img, .beta-nav .title img {width: 160px;height: 36px;}
+.beta-header .title img {width: 160px;height: 36px;margin-top: 5px;}
+.beta-nav .title img {width: 160px;height: 36px;}
 .sub-menu {padding-top: 35px;}
 .sub-menu li {font-size: 16px;line-height: 2.3;}
 .sub-menu li > ul {margin-left: 20px}
@@ -56,6 +57,5 @@ html, body {height: 100%;}
 }*/
 .page-enter, .page-leave-to
 {
-  //transform: translateX(10px);
   opacity: 0;
 }
