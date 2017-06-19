@@ -18,3 +18,6 @@ export default {
 	}
 }
 </script>
+<style scope>
+	.sub-menu li.nuxt-link-active .menu-branch > li:nth-child(1) > a {color: #333;}
+</style>

@@ -25,7 +25,7 @@ head:{
   srcDir: 'src/',
 
   router: {
-    base: '/hiworks-beta/'
+    base: '/hiworks_beta/'
   },
 
   generate: {

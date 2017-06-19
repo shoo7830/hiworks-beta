@@ -18,6 +18,7 @@
 					<li><router-link to="/format-approve/apply">신청</router-link></li>
 					<li><router-link to="/format-approve/reply">회람</router-link></li>
 				</ul>
+				
 			</router-link>
 			<router-link tag="li" to="/print-approve"><a>인쇄 레이아웃</a></router-link>
 			<router-link tag="li" to="/new-approve"><a>새로운 결재</a>
@@ -42,8 +43,12 @@
 
 <script>
 export default {
-	name: 'Leftmenu'
-	
+	name: 'Leftmenu',
+	data() {
+		return {
+			active:this.$route.name
+		}
+	}
 }
 </script>
 
@@ -52,6 +57,8 @@ export default {
 	.sub-menu li .menu-branch {display: none;}
 	.sub-menu li.nuxt-link-active .menu-branch {display: block;}
 	.sub-menu li.nuxt-link-active .menu-branch > li > a {font-weight: normal;border-bottom: 0;padding-bottom: 0;color: #333;}
-	.sub-menu li.nuxt-link-active .menu-branch > li > a.router-link-exact-active {color: #0197e4;}
-	/*.sub-menu li.nuxt-link-active .menu-branch > li > a.nuxt-link-active {color: #0197e4;}*/
+	.sub-menu li.nuxt-link-active .menu-branch > li > a.router-link-exact-active {color: #0197e4;} 
+	/*.sub-menu li.nuxt-link-active .menu-branch.format-approve-view > li > a.nuxt-link-active, 
+	.sub-menu li.nuxt-link-active .menu-branch > li.format-approve-sendview > a.nuxt-link-active
+	.sub-menu li.nuxt-link-active .menu-branch > li.format-approve-applyview > a.nuxt-link-active {color: #0197e4;}*/
 </style>

@@ -14,7 +14,7 @@ export default {
 	layout: 'hiworks',
 	name: 'format-approve',
 	head: {
-		title: '하이웍스 - 결재 포맷 중 결재 작성'
-	}
+		title: '하이웍스 - 결재'
+	}	
 }
 </script>
