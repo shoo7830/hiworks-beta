@@ -104,7 +104,7 @@ export default {
 	.beta-wrap-main .main .go-beta {float: right;margin-top: 12px;padding: 10px 17px 10px 14px;font-size: 14px;color: #2985db;border: 1px solid #2985db;border-radius:2px;}
 	.beta-wrap-main .go-beta img {position: relative;top:1px;margin-left:5px;}
 	.service-list:after {clear: both;display: block;content: ''}
-	.service-list li {float: left;width: 238px;padding:55px 34px;text-align: center;}
+	.service-list li {float: left;width: 238px;padding:55px 34px;text-align: center;height: 209px;}
 	.service-list li a {display: inline-block;}
 	.service-list .title {display:inline-block;padding-bottom: 10px;font-size: 18px;color: #333;}
 	.write-approve + .title {padding-top: 28px;}
