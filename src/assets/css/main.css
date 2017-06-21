@@ -6,7 +6,9 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 input,select,textarea,button{vertical-align:middle}
 button{border:0 none;background-color:transparent;cursor:pointer}
+html, body {height: 100%}
 body{background:#fff}
+#__nuxt {height: 100%;overflow: auto}
 body,th,td,input,select,textarea,button{font-size:14px;font-family:'맑은 고딕','Malgun Gothic',dotum,sans-serif;color:#676767}
 table{border-collapse:collapse}
 a{color:#676767;text-decoration:none}
@@ -14,7 +16,6 @@ a:active,a:hover{text-decoration:none}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
 legend{position:absolute;left:-9999px;top:0}
 caption{overflow:hidden;width:0;height:0;font-size:0;line-height:0}
-html, body {height: 100%;}
 .blind{display:block;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;border:0;background:0;font-size:0;line-height:0}
 .bold{font-weight:bold}
 .skip_menu a{position:absolute;top:-50px;left:50%;margin-left:-70px;z-index:10000;padding:5px;background-color:white;color:black;font-size:12px;-webkit-transition:.3s;-moz-transition:.3s;transition:.3s}
@@ -25,7 +26,7 @@ html, body {height: 100%;}
 .clear{clear:both}
 
 /* *** beta style *** */
-.beta-wrap {width: 1024px; margin: 0 auto;height:100%;}
+.beta-wrap {width: 1024px; margin: 0 auto;height:100%;padding-bottom: 140px}
 .beta-wrap:after {display: block;clear: both;content: '';}
 .beta-header .is-main {width: 1024px;margin: 0 auto;padding: 35px 0;border-bottom: 1px solid #ecf0f3;}
 .beta-header:after {clear: both;display: block;content: ''}

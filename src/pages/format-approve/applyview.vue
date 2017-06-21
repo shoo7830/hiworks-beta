@@ -13,7 +13,7 @@
 <script>
 export default {
 	layout: 'hiworks',
-	name: 'format-approve',
+	name: 'format-approve-applyview',
 	head: {
 		title: '결재 포맷 중 ‘신청’ 보기'
 	}

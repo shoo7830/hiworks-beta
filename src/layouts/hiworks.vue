@@ -16,12 +16,15 @@
 			Leftmenu//,
 			//Rightcontent
 		}
+
+
 	}
 	
 </script>
 
-<style scope>
-	.beta-body {float: right;width: 730px;padding: 70px 0 400px 50px;border-left: 1px solid #ecf0f3;min-height: 100%;}
+<style>
+	.beta-wrap {background: url('~assets/images/line.png') 0 0 repeat-y;}
+	.beta-body {float: right;width: 730px;padding: 70px 0 70px 50px;}
 	.beta-body h2 {padding:2px 0 25px 0;font-size: 28px;font-size: 28px;color: #333;font-weight: normal;letter-spacing: -2px}
 	.beta-body .with-comment h2 {padding-bottom: 10px;} 
 	.beta-body .with-comment p {font-size: 15px;padding-bottom: 25px;line-height: 1.6;}
