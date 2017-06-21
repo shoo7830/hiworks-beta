@@ -20,3 +20,6 @@ export default {
 	}
 }
 </script>
+<style scoped>
+	.beta-body {border-left: 1px solid #ecf0f3}
+</style>

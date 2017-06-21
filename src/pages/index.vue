@@ -95,7 +95,7 @@ export default {
 }
 </script>
 
-<style scope>
+<style scoped>
 	.spr-icon {display: inline-block;background:url('~assets/images/spr-icon.png') 0 0 no-repeat;}
 	.beta-wrap-main .beta-header {padding: 33px 0 29px;border-bottom: 1px solid #ecf0f3;}
 	.beta-wrap-main .main {width: 918px; margin: 0 auto;}
@@ -117,8 +117,8 @@ export default {
 	.default-approve + .title {padding-top: 23px;}
 	.admin-approve + .title {padding-top: 31px;}
 	.service-list .text {font-size: 16px;color: #777;letter-spacing: -1px;line-height: 1.6;}
-	.service-list li a:hover .title {color:#0197e4;font-weight: bold;}
-	.service-list li a:hover .text {color:#0197e4;}
+	.service-list li a:hover .title {color:#2985db;font-weight: bold;}
+	.service-list li a:hover .text {color:#2985db;}
 	.write-approve .spr-icon {width:94px;height:94px;background-position:-1px -1px;}
 	a:hover .write-approve .spr-icon {background-position: 0 -109px;}
 	.list-approve .spr-icon {width: 89px;height: 104px;background-position: -92px -1px;}

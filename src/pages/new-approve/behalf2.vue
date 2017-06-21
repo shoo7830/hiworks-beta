@@ -13,9 +13,12 @@
 <script>
 export default {
 	layout: 'hiworks',
-	name: 'new-approve',
+	name: 'new-approve-behalf2',
 	head: {
 		title: '하이웍스 - 대결'
 	}
 }
 </script>
+<style scoped>
+	.beta-body {border-left: 1px solid #ecf0f3}
+</style>
