@@ -1,7 +1,7 @@
 <template>	
 	<div class="beta-wrap">
 		<Leftmenu></Leftmenu>
-		
+		<!-- <Rightcontent></Rightcontent> -->
 		<nuxt />
 	</div>
 	
@@ -16,8 +16,6 @@
 			Leftmenu//,
 			//Rightcontent
 		}
-
-
 	}
 	
 </script>
