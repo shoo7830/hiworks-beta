@@ -30,5 +30,14 @@ head:{
 
   generate: {
     dir: 'hiworks-beta/'
-  }
+  },
+
+    build: {
+      filenames: {
+          manifest: 'manifest.hiworks_beta.js',
+          vendor: 'vendor.bundle.hiwokrs_beta.js',
+          app: 'nuxt.bundle.hiworks_beta.js'
+      }
+
+    }
 }
