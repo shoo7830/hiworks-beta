@@ -1,4 +1,4 @@
-# hiworks-beta
+# hiworks-beta [![Build Status](https://travis-ci.org/shoo7830/hiworks-beta.svg?branch=master)](https://travis-ci.org/shoo7830/hiworks-beta)
 0. start
 ~~~
 yarn 
