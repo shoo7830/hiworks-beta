@@ -1,12 +1,12 @@
 <template>
-	
+
 	<div>
 		<div class="beta-wrap-main">
 			<div class="beta-header">
 				<div class="main">
 					<h1 class="title"><router-link to="/"><img src="https://www.hiworks.com/static/images/logo.png" alt=""></router-link></h1>
 					<h2>전자결재 개편 소개</h2>
-					<a href="#" class="go-beta">개편된 전자결재 바로 체험하기 <img src="~assets/images/bullet.png" alt=""></a>
+					<a href="https://www.hiworks.com/hiworks_beta/manual_download" class="go-beta">매뉴얼 다운로드 <img src="~assets/images/bullet.png" alt=""></a>
 				</div>
 			</div>
 			<ul class="service-list">
@@ -31,7 +31,7 @@ export default {
 	head: {
 		title: '하이웍스 - 전자결재 개편 홈'
 	},
-	
+
 	data () {
 		return {
 			  items: [
@@ -46,43 +46,43 @@ export default {
 					title: '결재 문서 목록',
 					text1: '문서 상태별로 일괄 결재를 할 수',
 					text2: '있는 결재 문서 목록'
-				}, 
+				},
 				{
 					link: 'docu-approve',
 					title: '문서함',
 					text1: '결재 완료된 문서를 행위에 따라',
 					text2: '구분한 문서함 분리'
-				}, 
+				},
 				{
 					link: 'view-approve',
 					title: '결재 문서 보기',
 					text1: '원하는 항목을 바로 변경할 수 있는',
 					text2: '결재 문서 보기'
-				}, 
+				},
 				{
 					link: 'format-approve',
 					title: '네 가지 결재 포맷',
 					text1: '문서를 작성하는 상황에 따라',
 					text2: '설정할 수 있는 결재 포맷'
-				}, 
+				},
 				{
 					link: 'print-approve',
 					title: '인쇄 레이아웃',
 					text1: '결재 포맷에 따라 통일된 형태로',
 					text2: '출력되는 인쇄'
-				}, 
+				},
 				{
 					link: 'new-approve',
 					title: '새로운 결재',
 					text1: '후결, 대결 등의 결재 방식과',
 					text2: '협의 요청 추가로 새로워진 결재'
-				}, 
+				},
 				{
 					link: 'default-approve',
 					title: '문서 양식 관리',
 					text1: '자동 결재선과 지정 결재자로',
 					text2: '똑똑해진 문서 양식 관리'
-				}, 
+				},
 				{
 					link: 'admin-approve',
 					title: '관리자 설정',
@@ -99,9 +99,9 @@ export default {
 	.spr-icon {display: inline-block;background:url('~assets/images/spr-icon.png') 0 0 no-repeat;}
 	.beta-wrap-main .beta-header {padding: 33px 0 29px;border-bottom: 1px solid #ecf0f3;}
 	.beta-wrap-main .main {width: 918px; margin: 0 auto;}
-	.beta-wrap-main .main:after{clear: both;display: block;content: ''} 
+	.beta-wrap-main .main:after{clear: both;display: block;content: ''}
 	.beta-wrap-main .service-list {width: 918px; margin: 22px auto 0;}
-	.beta-wrap-main .main .go-beta {float: right;margin-top: 12px;padding: 10px 17px 10px 14px;font-size: 14px;color: #2985db;border: 1px solid #2985db;border-radius:2px;}
+	.beta-wrap-main .main .go-beta {float: right;margin-top: 12px;padding: 10px 54px;font-size: 14px;color: #2985db;border: 1px solid #2985db;border-radius:2px;}
 	.beta-wrap-main .go-beta img {position: relative;top:1px;margin-left:5px;}
 	.service-list:after {clear: both;display: block;content: ''}
 	.service-list li {float: left;width: 238px;padding:55px 34px;text-align: center;height: 209px;}
