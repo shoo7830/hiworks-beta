@@ -1,6 +1,10 @@
 module.exports = {
 
-loading: 'components/main.vue',
+// loading: 'components/main.vue',
+
+loading: {
+  color: '#0197e4'
+},
 
 head:{
 	link: [
