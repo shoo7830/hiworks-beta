@@ -1,9 +1,8 @@
 module.exports = {
 
-// loading: 'components/main.vue',
-
 loading: {
-  color: '#0197e4'
+	color: '#0197e4'
+
 },
 
 head:{
@@ -13,8 +12,8 @@ head:{
     meta: [
       { charset: 'utf-8' },
       { property: 'og:url', content: 'https://www.hiworks.com'},
-      { property: 'og:title', content: '나의 업무파트너 하이웍스'}, 
-      { property: 'og:image', content: 'https://www.hiworks.com/static/images/fbook_share.png'}, 
+      { property: 'og:title', content: '나의 업무파트너 하이웍스'},
+      { property: 'og:image', content: 'https://www.hiworks.com/static/images/fbook_share.png'},
       { property: 'og:description', content: '다기능 그룹웨어를 통해 업무 효율성을 높이세요.'}
     ],
 	script: [
@@ -24,7 +23,7 @@ head:{
 
   css: [
     '~assets/css/main.css'
-  ], 
+  ],
 
   srcDir: 'src/',
 
@@ -33,7 +32,7 @@ head:{
   },
 
   generate: {
-    dir: 'hiworks-beta/'
+    dir: 'hiworks_beta/'
   },
 
   build: {
