@@ -2,6 +2,7 @@ module.exports = {
 
 loading: {
 	color: '#0197e4'
+
 },
 
 head:{
