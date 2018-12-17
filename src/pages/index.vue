@@ -6,7 +6,7 @@
 				<div class="main">
 					<h1 class="title"><router-link to="/"><img src="https://www.hiworks.com/static/images/logo.png" alt=""></router-link></h1>
 					<h2>전자결재 개편 소개</h2>
-					<a href="https://www.hiworks.com/hiworks_beta/manual_download" class="go-beta">매뉴얼 다운로드 <img src="~assets/images/bullet.png" alt=""></a>
+					<a href="https://customer.gabia.com/manuals/detail.php?seq_no=2872" class="go-beta">매뉴얼 보기 <img src="~assets/images/bullet.png" alt=""></a>
 				</div>
 			</div>
 			<ul class="service-list">
@@ -61,7 +61,7 @@ export default {
 				},
 				{
 					link: 'format-approve',
-					title: '네 가지 결재 포맷',
+					title: '다섯 가지 결재 포맷',
 					text1: '문서를 작성하는 상황에 따라',
 					text2: '설정할 수 있는 결재 포맷'
 				},

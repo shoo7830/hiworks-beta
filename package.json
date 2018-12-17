@@ -7,9 +7,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.4.0",
+    "nuxt": "^1.4.5",
     "vue": "2.5.16",
-    "vue-loader": "^14.2.2",
+    "vue-loader": "^14.2.3",
     "vue-server-renderer": "2.5.16",
     "vue-template-compiler": "2.5.16"
   }
